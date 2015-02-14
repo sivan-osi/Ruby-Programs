@@ -15,7 +15,7 @@ The first 3 line will look like:
 
 for i in 1..12
 	for j in 1..12
-		print "#{i*j}"
+		print "#{i*j}".rjust(4) # http://stackoverflow.com/a/15021531/1542202
 		puts "" if j == 12
 	end
 end
