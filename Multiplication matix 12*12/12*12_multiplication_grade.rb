@@ -12,3 +12,10 @@ The first 3 line will look like:
 3   6   9  12  15  18  21  24  27  30  33  36
 
 =end
+
+for i in 1..12
+	for j in 1..12
+		print "#{i*j}"
+		puts "" if j == 12
+	end
+end
